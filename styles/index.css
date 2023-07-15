@@ -1,0 +1,515 @@
+/* Webfont: Thunder-BlackLC */
+@font-face {
+    font-family: 'ThunderBlack';
+    src: url('../fonts/THUNDER/Web-PS/Thunder-BlackLC.woff2') format('woff2'),
+        /* Modern Browsers */
+        url('../fonts/THUNDER/Web-PS/Thunder-BlackLC.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Thunder-BlackLC */
+@font-face {
+    font-family: 'ThunderBlackHC';
+    src: url('../fonts/THUNDER/Web-PS/Thunder-BlackHC.woff2') format('woff2'),
+        /* Modern Browsers */
+        url('../fonts/THUNDER/Web-PS/Thunder-BlackHC.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Webfont: Thunder-BoldLC */
+@font-face {
+    font-family: 'ThunderBold';
+    src: url('../fonts/THUNDER/Web-PS/Thunder-BoldLC.woff2') format('woff2'),
+        /* Modern Browsers */
+        url('../fonts/THUNDER/Web-PS/Thunder-BoldLC.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Thunder-ThinLC */
+@font-face {
+    font-family: 'ThunderThin';
+    src: url('../fonts/THUNDER/Web-PS/Thunder-ThinLC.woff2') format('woff2'),
+        /* Modern Browsers */
+        url('../fonts/THUNDER/Web-PS/Thunder-ThinLC.otf') format('opentype');
+    /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-height: 100svh;
+    min-height: 100svh;
+    /* border: 10px solid black; */
+    font-family: "ThunderBlack";
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: "ThunderBold";
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    margin: 0;
+    padding: 0;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+header {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 19, 19);
+}
+
+header h1 {
+    padding: 1.5rem 0 1.5rem 0;
+    text-align: center;
+}
+
+.header-letter1 {
+    opacity: 0;
+    animation: 1s ease-out 0.3s 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.header-letter2 {
+    opacity: 0;
+    animation: 1s ease-out 0.6s 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.header-letter3 {
+    opacity: 0;
+    animation: 1s ease-out 0.9s 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.header-letter4 {
+    opacity: 0;
+    animation: 1s ease-out 1.2s 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.header-letter5 {
+    opacity: 0;
+    animation: 1s ease-out 1.5s 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.header-letter6 {
+    opacity: 0;
+    animation: 1s ease-out 1.8s 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+main {
+    padding-bottom: 2rem;
+    flex: 100;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+}
+
+.section {
+    flex: 1;
+    padding-top: 2rem;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.left h2 {
+    text-align: right;
+    padding-bottom: 2rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.letters {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left-section-letter1 {
+    opacity: 0;
+    animation: 1s ease-out 2500ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter2 {
+    opacity: 0;
+    animation: 1s ease-out 2550ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter3 {
+    opacity: 0;
+    animation: 1s ease-out 2600ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter3 {
+    opacity: 0;
+    animation: 1s ease-out 2650ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter4 {
+    opacity: 0;
+    animation: 1s ease-out 2700ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter5 {
+    opacity: 0;
+    animation: 1s ease-out 2750ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter6 {
+    opacity: 0;
+    animation: 1s ease-out 2800ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter7 {
+    opacity: 0;
+    animation: 1s ease-out 2850ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter8 {
+    opacity: 0;
+    animation: 1s ease-out 2900ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter9 {
+    opacity: 0;
+    animation: 1s ease-out 2950ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter10 {
+    opacity: 0;
+    animation: 1s ease-out 3000ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter11 {
+    opacity: 0;
+    animation: 1s ease-out 3050ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter12 {
+    opacity: 0;
+    animation: 1s ease-out 3100ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter13 {
+    opacity: 0;
+    animation: 1s ease-out 3150ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter14 {
+    opacity: 0;
+    animation: 1s ease-out 3200ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter15 {
+    opacity: 0;
+    animation: 1s ease-out 3250ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter16 {
+    opacity: 0;
+    animation: 1s ease-out 3300ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter17 {
+    opacity: 0;
+    animation: 1s ease-out 3350ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter18 {
+    opacity: 0;
+    animation: 1s ease-out 3400ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter19 {
+    opacity: 0;
+    animation: 1s ease-out 3450ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter20 {
+    opacity: 0;
+    animation: 1s ease-out 3500ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter19 {
+    opacity: 0;
+    animation: 1s ease-out 3450ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter20 {
+    opacity: 0;
+    animation: 1s ease-out 3500ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter21 {
+    opacity: 0;
+    animation: 1s ease-out 3550ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-letter22 {
+    opacity: 0;
+    animation: 1s ease-out 3600ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.right {
+    /* align-self: flex-end; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.right-section-letter1 {
+    opacity: 0;
+    animation: 1s ease-out 4200ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.right-section-letter2 {
+    opacity: 0;
+    animation: 1s ease-out 4250ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.right-section-letter3 {
+    opacity: 0;
+    animation: 1s ease-out 4300ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.right-section-letter4 {
+    opacity: 0;
+    animation: 1s ease-out 4350ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.right-section-letter5 {
+    opacity: 0;
+    animation: 1s ease-out 4400ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.right-section-letter6 {
+    opacity: 0;
+    animation: 1s ease-out 4450ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.right-section-letter7 {
+    opacity: 0;
+    animation: 1s ease-out 4500ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.right-section-letter8 {
+    opacity: 0;
+    animation: 1s ease-out 4550ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.right-section-letter9 {
+    opacity: 0;
+    animation: 1s ease-out 4600ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.right-section-letter10 {
+    opacity: 0;
+    animation: 1s ease-out 4650ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.right-section-letter11 {
+    opacity: 0;
+    animation: 1s ease-out 4700ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.right-section-letter12 {
+    opacity: 0;
+    animation: 1s ease-out 4750ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.right-section-letter13 {
+    opacity: 0;
+    animation: 1s ease-out 4800ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.right-section-letter14 {
+    opacity: 0;
+    animation: 1s ease-out 4850ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.right-section-letter15 {
+    opacity: 0;
+    animation: 1s ease-out 4900ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.right-section-letter16 {
+    opacity: 0;
+    animation: 1s ease-out 4950ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.img-holder {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.img-holder img {
+    padding: 0;
+    width: 100%;
+    border-radius: 1rem;
+    opacity: 0;
+    animation: 1s ease-out 3700ms 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.middle {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+footer {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: rgb(19, 19, 19);
+    padding-right: 2rem;
+}
+
+.radio-nav {
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio-nav1 {
+    opacity: 0;
+    animation: 1s ease-out 4.2s 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.radio-nav2 {
+    opacity: 0;
+    animation: 1s ease-out 4.5s 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.radio-nav3 {
+    opacity: 0;
+    animation: 1s ease-out 4.8s 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.radio-nav4 {
+    opacity: 0;
+    animation: 1s ease-out 5.1s 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.radio-nav5 {
+    opacity: 0;
+    animation: 1s ease-out 5.4s 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.left-section-disc {
+    opacity: 0;
+    animation: 1s ease-out 5.4s 1 slideInFromBottom;
+    animation-fill-mode: forwards;
+}
+
+.radio-nav:hover {
+    cursor: pointer;
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(15%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
